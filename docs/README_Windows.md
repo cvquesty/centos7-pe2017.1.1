@@ -31,11 +31,11 @@ In previous releases, vagrant-pe_build had issues with downloading Puppet Enterp
 
 In the past, you would need to download the PE Package manually here:
 
-https://s3.amazonaws.com/pe-builds/released/2016.4.2/puppet-enterprise-2016.4.2-el-7-x86_64.tar.gz
+https://s3.amazonaws.com/pe-builds/released/2017.1.1/puppet-enterprise-2017.1.1-el-7-x86_64.tar.gz
 
 - or -
 
-https://s3.amazonaws.com/pe-builds/released/2016.4.2/puppet-enterprise-2016.4.2-el-6-x86_64.tar.gz
+https://s3.amazonaws.com/pe-builds/released/2017.1.1/puppet-enterprise-2017.1.1-el-6-x86_64.tar.gz
 
 Move it to the C:\Users\username\\.vagrant.d\\.pe_build directory.
 
@@ -43,11 +43,11 @@ Move it to the C:\Users\username\\.vagrant.d\\.pe_build directory.
 
 In Windows Explorer, navigate to a location within which to create your project.  From there, clone the git repository.
 
-	git clone https://github.com/cvquesty/centos7-2016.4.2.git
+	git clone https://github.com/cvquesty/centos7-2017.1.1.git
 
 **Change to the Directory and Launch Vagrant**
 
-    cd centos7-2016.4.2
+    cd centos7-2017.1.1
     vagrant up
 
 **Notes:**
