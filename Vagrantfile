@@ -6,6 +6,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   pe_version                    = '2017.1.1'
   config.pe_build.version       = pe_version
+  config.pe_build.download_root  = "https://s3.amazonaws.com/pe-builds/released/#{pe_version}"
 
 ######################
 ## Puppet Master VM ##
